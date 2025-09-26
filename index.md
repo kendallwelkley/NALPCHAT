@@ -1,0 +1,42 @@
+<script type='text/javascript'>
+	function initEmbeddedMessaging() {
+		try {
+			embeddedservice_bootstrap.settings.language = 'en_US'; // For example, enter 'en' or 'en-US'
+      window.addEventListener("onEmbeddedMessagingReady", e => {
+						  embeddedservice_bootstrap.prechatAPI.setVisiblePrechatFields({
+						    // List the pre-chat field names with the value and whether
+						    // it's editable in the pre-chat form.
+						    	"Account_Code": {
+						      	"AB123": "AB123",
+						      	"isEditableByEndUser": true
+						    	},
+		 					"_email": {
+						      	"kwelkle11@gmail.com": "tguirgis@testemail.com.invalid",
+						      	"isEditableByEndUser": true
+						    	},
+							"_firstName": {
+						      	"Kendall": "Tony",
+						      	"isEditableByEndUser": true
+						    	},
+		 					"_lastName": {
+						      	"Welkley": "Guirgis",
+						      	"isEditableByEndUser": true
+						    	}
+		 				  });
+                          
+						});
+
+			embeddedservice_bootstrap.init(
+				'00DVE000006fyo0',
+				'Customer_Support_1',
+				'https://fleetcorna--svcsprint.sandbox.my.site.com/ESWCustomerSupport1757428622292',
+				{
+					scrt2URL: 'https://fleetcorna--svcsprint.sandbox.my.salesforce-scrt.com'
+				}
+			);
+		} catch (err) {
+			console.error('Error loading Embedded Messaging: ', err);
+		}
+	};
+</script>
+<script type='text/javascript' src='https://fleetcorna--svcsprint.sandbox.my.site.com/ESWCustomerSupport1757428622292/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
