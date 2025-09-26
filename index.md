@@ -8,11 +8,11 @@
 						    // it's editable in the pre-chat form.
 						    	"Account_Code": {
 						      	"value": "AB123",
-						      	"isEditableByEndUser": true
+						      	"isEditableByEndUser": false
 						    	},
 		 					"_Email": {
 						      	"value": "kwelkle11@gmail.com",
-						      	"isEditableByEndUser": true
+						      	"isEditableByEndUser": false
 						    	},
 							"_FirstName": {
 						      	"value": "Kendall",
