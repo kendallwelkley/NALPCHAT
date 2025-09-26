@@ -17,7 +17,11 @@
 		 						"_lastName": {
 						      	"value": "Welkley",
 						      	"isEditableByEndUser": true
-						    	}
+						    	},
+							 	"Account_Code": {
+						      	"value": "AB123",
+						      	"isEditableByEndUser": false
+						    	},
 		 				  });
                           
 						});
