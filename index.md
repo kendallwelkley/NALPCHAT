@@ -10,6 +10,10 @@
 						      	"value": "kwelkle11@gmail.com",
 						      	"isEditableByEndUser": false
 						    	},
+							 	"Account_Code": {
+						      	"value": "AB123",
+						      	"isEditableByEndUser": false
+								},
 								"_firstName": {
 						      	"value": "Kendall",
 						      	"isEditableByEndUser": true
@@ -17,10 +21,6 @@
 		 						"_lastName": {
 						      	"value": "Welkley",
 						      	"isEditableByEndUser": true
-						    	},
-							 	"Account_Code": {
-						      	"value": "AB123",
-						      	"isEditableByEndUser": false
 						    	},
 		 				  });
                           
