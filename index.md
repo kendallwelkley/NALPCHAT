@@ -7,19 +7,19 @@
 						    // List the pre-chat field names with the value and whether
 						    // it's editable in the pre-chat form.
 						    	"Account_Code": {
-						      	"AB123": "AB123",
+						      	"value": "AB123",
 						      	"isEditableByEndUser": true
 						    	},
 		 					"_email": {
-						      	"kwelkle11@gmail.com": "tguirgis@testemail.com.invalid",
+						      	"value": "kwelkle11@gmail.com",
 						      	"isEditableByEndUser": true
 						    	},
 							"_firstName": {
-						      	"Kendall": "Tony",
+						      	"value": "Kendall",
 						      	"isEditableByEndUser": true
 						    	},
 		 					"_lastName": {
-						      	"Welkley": "Guirgis",
+						      	"value": "Welkley",
 						      	"isEditableByEndUser": true
 						    	}
 		 				  });
