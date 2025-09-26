@@ -10,15 +10,15 @@
 						      	"value": "AB123",
 						      	"isEditableByEndUser": false
 						    	},
-		 						"_Email": {
+		 						"_email": {
 						      	"value": "kwelkle11@gmail.com",
 						      	"isEditableByEndUser": false
 						    	},
-								"_FirstName": {
+								"_firstName": {
 						      	"value": "Kendall",
 						      	"isEditableByEndUser": true
 						    	},
-		 						"_LastName": {
+		 						"_lastName": {
 						      	"value": "Welkley",
 						      	"isEditableByEndUser": true
 						    	}
